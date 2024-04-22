@@ -1,0 +1,33 @@
+h1{
+    color: green;
+}
+
+footer{
+    background-color: gray;
+}
+body{
+    background-color: gray;
+}
+li{
+    color: brown;
+} 
+  label{
+    color: greenyellow;
+  }  
+
+  .button{
+    background-color:gold;
+}
+.download{
+    text-decoration: none;
+    color: red;
+}
+.nav-link{
+    text-decoration:none;
+}
+nav ul{
+    list-style-type: none;
+}
+#pilau{
+    background-color: brown;
+}

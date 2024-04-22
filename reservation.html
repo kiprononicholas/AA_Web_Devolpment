@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+    <Link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>reservation</h1>
+        <nav>
+    
+            <ul>
+                <li><a class="nav-link" href="index.html">Home</a></li>
+                <li><a class="nav-link" href="Menu.html">Menu</a></li>
+                <li><a class="nav-link" href="Reservation.html">Reservation</a></li>
+                <li><a class="nav-link" href="about.html">About us</a></li>
+                <li><a class="nav-link" href="contact.html">Contact us</a></li>
+                <li><a class="nav-link"  href="entertainment.html" >entertainment</a></li>
+                <li><a class="nav-link" href="recipe.html" >recipe</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h3>Registration Form</h3>
+    <form action="https:httpbin.org/post" method="post"> 
+        <fieldset>
+            <legend>Personal Information</legend>
+        <br/>
+        <label for="Tittle">Tittle</label>
+        <select name="tittle" id="tittle">
+           
+            <option value="Mr">Mr.</option>
+            <option value="Mrs">Mrs.</option>
+            <option value="dr">Dr.</option>
+            <option value="prof">Prof.</option>
+
+            </select>
+            
+
+            <label for="firstName">FirstName:</label>
+            <input   type="text" name="FirstName" id="First" required placeholder="Gladwel" autofocus autocomplete="on" />
+        <br/>
+        <br>
+        <label for="lastName">LastName:</label>
+        <input type="text" name="LastName" id="Last" required placeholder="chelangat" autocomplete="on" />
+        <br/>
+        <br/>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" name="Phone" id="phone" required placeholder="0707162940"
+        maxlength="10"
+       autocomplete="on" pattern="[0-9][10]" />
+        <br/>
+        <br/>
+        <label for="emailAdress">Email Adress:</label>
+        <input type="email" name="emailAdress" id="email Adress" required placeholder="chelangatgladwel9@gmail.com" />
+        <br/>
+        <br/>
+        <label for="gender">Gender</label>
+        <label for="male"> Male</label>
+        <input type="radio" id="Male" />
+        <label for="female">Female</label>
+        <input type="radio" id="Female" />
+        <input type="radio" id="Female" name="gender" value="Female" />
+        <label for="Other">Other</label>
+        <input type="radio" id="other" name="gender" value="Female" /><br>
+        <br/>
+        <label for="guest">Number of guest </label>
+        <input type="number" min="0" max="99" /> <br/>
+        <br/>
+        
+        <label for="dob">DOB:</label>
+        <input type="date" name="dob" id="dob" required max="2011-01-01" />
+        <br/>
+        <br/>
+        <!-- This block of code list is called Kenyan counties-->
+        <label for="county" >County</label>
+        <input type="text" name="county" id=" county" list="county-list">
+        <datalist id="county-list">
+            <option value="Mombasa">
+            <option value="Kwale">
+            <option value="Kilifi">
+            <option value="TanaRiver">
+            <option value="Lamu">
+            <option value="Taita/Taveta">
+            <option value="Garissa">
+            <option value="Wajir">
+            <option value="Mandera">
+            <option value="Marsabit">
+            <option value="Isiolo">
+            <option value="Meru">
+            <option value="Tharaka-Nithi">
+            <option value="Embu">
+            <option value="Kitui">
+            <option value="Machakos">
+            <option value="Makueni">
+            <option value="Nyandarua">
+            <option value="Nyeri">
+            <option value="Kirinyaga">
+            <option value="Muranga">
+            <option value="Kiambu">
+            <option value="Turkana">
+            <option value="West Pokot">
+            <option value="Samburu">
+            <option value="Trans Nzoia">
+            <option value="Uasin Gishu">
+            <option value="Elgeyo/Marakwet">
+            <option value="Nandi">
+            <option value="Baringo">
+            <option value="Laikipia">
+            <option value="Nakuru">
+            <option value="Narok">
+            <option value="Kajiado">
+            <option value="Kericho">
+            <option value="Bomet">
+            <option value="Kakamega">
+            <option value="Vihiga">
+            <option value="Bungoma">
+            <option value="Busia">
+            <option value="Siaya">
+            <option value="Kisumu">
+            <option value="Homa Bay">
+            <option value="Migori">
+            <option value="Kisii">
+            <option value="Nyamira">
+            <option value="Nairobi City">
+            </datalist>
+         
+           
+          
+        <label for="profilepic">Profile photo</label>
+        <input type="file" accept="image/*" />
+        <br>
+        <br>
+        
+        <label for="password">Password:</label>
+        <input type="password" name="Password" id="password" required />
+        <br/>
+        <br/>
+        <button type="submit">Sign up </button>
+        <br>
+        <br>
+        <P>
+    </fieldset>
+    <legend> place of contact</legend>
+        
+    </form> 
+    <br>
+    <fieldset>
+    <h5>Will be happy to hear from you</h5>
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+        <br/>  
+        <input type="submit">
+    </fieldset>
+</P>
+<P>&copy; 2024 Israel Cafe.All rigts reserved</P>
+
+</body>
+</html>
